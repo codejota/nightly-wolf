@@ -1,8 +1,8 @@
 {
-  "name": "nightwatch-theme",
-  "displayName": "Night Watch",
+  "name": "nightly-wolf-theme",
+  "displayName": "Nightly Wolf",
   "description": "This theme keeps it simple: no flashy distractions or eye-searing colors. We've fine-tuned the syntax and semantic highlighting to match your favorite coding languages, making sure your code stands out without straining your eyes. It's all about keeping you focused and comfortable during those long coding sessions.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "jotacode",
   "engines": {
     "vscode": "^1.90.0"
@@ -13,7 +13,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codejota/nightwatch-theme"
+    "url": "https://github.com/codejota/nightly-wolf"
   },
   "keywords": [
     "themes",
@@ -30,9 +30,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night's Watch",
+        "label": "Nightly Wolf",
         "uiTheme": "vs-dark",
-        "path": "./themes/nightwatch-theme.json"
+        "path": "./themes/nightlywolf-theme.json"
       }
     ]
   }
