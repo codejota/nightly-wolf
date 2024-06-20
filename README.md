@@ -50,4 +50,8 @@ We appreciate your feedback! If you have any suggestions or issues, feel free to
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-**Enjoy!**
+## Inspirations
+
+- HackerTheBox
+
+  **Enjoy!**
