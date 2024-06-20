@@ -2,7 +2,7 @@
   "name": "nightly-wolf-theme",
   "displayName": "Nightly Wolf",
   "description": "This theme keeps it simple: no flashy distractions or eye-searing colors. We've fine-tuned the syntax and semantic highlighting to match your favorite coding languages, making sure your code stands out without straining your eyes. It's all about keeping you focused and comfortable during those long coding sessions.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "jotacode",
   "engines": {
     "vscode": "^1.90.0"
@@ -14,6 +14,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/codejota/nightly-wolf"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/codejota"
   },
   "keywords": [
     "themes",
