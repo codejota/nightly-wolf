@@ -42,12 +42,12 @@
         "path": "./themes/nightlywolf-theme.json"
       },
       {
-        "label": "Nightly Watch Soft",
+        "label": "Nightly Wolf Soft",
         "uiTheme": "vs",
         "path": "./themes/nightlywolf-theme-soft.json"
       },
       {
-        "label": "Lightly Watch",
+        "label": "Lightly Wolf",
         "uiTheme": "vs",
         "path": "./themes/nightlywolf-theme-white.json"
       }

@@ -351,7 +351,7 @@
         "meta.definition.variable"
       ],
       "settings": {
-        "foreground": "#c99076"
+        "foreground": "#c97676"
       }
     },
     {
@@ -375,7 +375,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#80a665"
+        "foreground": "#75b547"
       }
     },
     {
@@ -393,7 +393,7 @@
         "constant.language.null"
       ],
       "settings": {
-        "foreground": "#cb7676"
+        "foreground": "#bf2828"
       }
     },
     {
@@ -478,7 +478,7 @@
         "meta.var.expr.ts"
       ],
       "settings": {
-        "foreground": "#cb7676"
+        "foreground": "#b24b4b"
       }
     },
     {
@@ -513,7 +513,6 @@
       "scope": "carriage-return",
       "settings": {
         "fontStyle": "italic underline",
-        "background": "#f97583",
         "foreground": "#24292e",
         "content": "^M"
       }
