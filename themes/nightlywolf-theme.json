@@ -90,12 +90,12 @@
     "editor.foreground": "#a4b1cd",
     "editor.lineHighlightBackground": "#121212",
     "editor.lineHighlightBorder": "#13101A",
-    "editor.rangeHighlightBackground": "#313f55",
+    "editor.rangeHighlightBackground": "#554831",
     "editor.selectionBackground": "#6e7b968C",
     "editor.selectionForeground": "#16121D",
     "editor.selectionHighlightBackground": "#6e7b968C",
     "editor.stackFrameHighlightBackground": "#6e7b968C",
-    "editorBracketMatch.border": "#313f55",
+    "editorBracketMatch.border": "#ff3e3e",
     "editorCursor.background": "#ff3e3e",
     "editorGroup.border": "#313f55",
     "editorGroup.dropBackground": "#9698d815",
@@ -106,7 +106,7 @@
     "editorHoverWidget.background": "#030a15",
     "editorHoverWidget.foreground": "#a4b1cd",
     "editorIndentGuide.activeBackground": "#a4b1cd",
-    "editorIndentGuide.background": "#313f55",
+    "editorIndentGuide.background": "#bc210f22",
     "commandCenter.activeBackground": "#241e3160",
     "commandCenter.activeForeground": "#ada2c590",
     "commandCenter.background": "#181421",
@@ -225,8 +225,8 @@
     "sideBarSectionHeader.foreground": "#6e7b968C",
     "sideBarTitle.foreground": "#a4b1cd",
     "statusBar.background": "#181421",
-    "statusBar.debuggingBackground": "#ff8484",
-    "statusBar.debuggingForeground": "#16121D",
+    "statusBar.debuggingBackground": "#952d2d",
+    "statusBar.debuggingForeground": "#a6a6a6",
     "statusBar.foreground": "#a4b1cd",
     "statusBar.noFolderBackground": "#13101a",
     "statusBar.noFolderForeground": "#a4b1cd",
@@ -393,7 +393,7 @@
         "constant.language.null"
       ],
       "settings": {
-        "foreground": "#bf2828"
+        "foreground": "#FB77C3"
       }
     },
     {
@@ -1266,7 +1266,7 @@
       "foreground": "#c8c1d9"
     },
     "variable": {
-      "foreground": "#FF738A"
+      "foreground": "#bc4040"
     },
     "variable.defaultLibrary": {
       "foreground": "#ff3e3e"
