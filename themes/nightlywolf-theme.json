@@ -315,7 +315,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
-        "foreground": "#758575dd"
+        "foreground": "#3d3d3ddd"
       }
     },
     {
@@ -340,7 +340,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#444444"
+        "foreground": "#434644a8"
       }
     },
     {
@@ -351,19 +351,19 @@
         "meta.definition.variable"
       ],
       "settings": {
-        "foreground": "#c97676"
+        "foreground": "#c99076"
       }
     },
     {
       "scope": ["entity", "entity.name"],
       "settings": {
-        "foreground": "#80a665"
+        "foreground": "#6e65a6"
       }
     },
     {
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#dbd7cacc"
+        "foreground": "#dbd7caee"
       }
     },
     {
@@ -375,7 +375,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#75b547"
+        "foreground": "#58ab1cc6"
       }
     },
     {
@@ -393,7 +393,7 @@
         "constant.language.null"
       ],
       "settings": {
-        "foreground": "#FB77C3"
+        "foreground": "#d35353"
       }
     },
     {
@@ -404,7 +404,7 @@
         "storage.type.java"
       ],
       "settings": {
-        "foreground": "#dbd7cacc"
+        "foreground": "#dbd7caee"
       }
     },
     {
@@ -478,7 +478,7 @@
         "meta.var.expr.ts"
       ],
       "settings": {
-        "foreground": "#b24b4b"
+        "foreground": "#cb7676"
       }
     },
     {
@@ -513,6 +513,7 @@
       "scope": "carriage-return",
       "settings": {
         "fontStyle": "italic underline",
+        "background": "#f97583",
         "foreground": "#24292e",
         "content": "^M"
       }
@@ -609,14 +610,14 @@
       "scope": "markup.italic",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#dbd7cacc"
+        "foreground": "#dbd7caee"
       }
     },
     {
       "scope": "markup.bold",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#dbd7cacc"
+        "foreground": "#dbd7caee"
       }
     },
     {
@@ -736,7 +737,7 @@
     {
       "scope": ["entity.other.attribute-name.html.vue"],
       "settings": {
-        "foreground": "#80a665"
+        "foreground": "#d0da63"
       }
     },
     {
