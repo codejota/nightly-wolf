@@ -369,7 +369,7 @@
     {
       "scope": ["entity.name.tag", "tag.html"],
       "settings": {
-        "foreground": "#4d9375"
+        "foreground": "#b34851"
       }
     },
     {
