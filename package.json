@@ -3,7 +3,7 @@
   "displayName": "Nightly Wolf",
   "description": "This theme keeps it simple: no flashy distractions or eye-searing colors. We've fine-tuned the syntax and semantic highlighting to match your favorite coding languages, making sure your code stands out without straining your eyes. It's all about keeping you focused and comfortable during those long coding sessions.",
   "license": "MIT",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "jotacode",
   "engines": {
     "vscode": "^1.90.0"
