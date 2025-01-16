@@ -1,6 +1,6 @@
 // @ts-nocheck
-// @ts-ignore
-// eslint-disable
+/* eslint-disable */
+
 "use client";
 
 import { useState, ReactNode } from "react";
