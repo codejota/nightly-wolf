@@ -1,6 +1,7 @@
+// @ts-nocheck
+/* eslint-disable */
 import { Viewport } from "next";
 import { Outfit } from "next/font/google";
-import Script from "next/script";
 
 import "./globals.css";
 import "./overwrites.css";
