@@ -1,6 +1,6 @@
 import { useTheme } from "./themes/theme-context";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { tomorrow } from "react-syntax-highlighter/dist/esm/styles/prism";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import dracula from "react-syntax-highlighter/dist/esm/styles/prism/dracula";
 
 export function CodeWindow() {
   const { theme } = useTheme();
@@ -29,7 +29,7 @@ export function CodeWindow() {
     >
       <SyntaxHighlighter
         language="javascript"
-        style={tomorrow}
+        style={dracula}
         customStyle={{
           margin: 0,
           padding: "1rem",
