@@ -1,4 +1,3 @@
-// @ts-nocheck
 /* eslint-disable */
 import { Viewport } from "next";
 import { Outfit } from "next/font/google";
