@@ -102,7 +102,7 @@
     "editorGroupHeader.border": "#00000000",
     "editorGroupHeader.noTabsBackground": "#181421",
     "editorGroupHeader.tabsBackground": "#13101a",
-    "editorGroupHeader.tabsBorder": "#0a080e",
+    "editorGroupHeader.tabsBorder": "#1f1d23",
     "editorHoverWidget.background": "#030a15",
     "editorHoverWidget.foreground": "#a4b1cd",
     "editorIndentGuide.activeBackground": "#a4b1cd",
@@ -230,13 +230,13 @@
     "statusBar.foreground": "#a4b1cd",
     "statusBar.noFolderBackground": "#13101a",
     "statusBar.noFolderForeground": "#a4b1cd",
-    "tab.activeBackground": "#181421",
-    "tab.activeBorder": "#181421",
-    "tab.activeBorderTop": "#d5d5e4",
-    "tab.activeForeground": "#9698d8",
+    "tab.activeBackground": "#20192f",
+    "tab.activeBorder": "#380110",
+    "tab.activeBorderTop": "#380110",
+    "tab.activeForeground": "#d1d2d8",
     "tab.border": "#0a080e",
     "tab.hoverBackground": "#181421",
-    "tab.inactiveBackground": "#13101a",
+    "tab.inactiveBackground": "#525056",
     "tab.inactiveForeground": "#52456f",
     "tab.lastPinnedBorder": "#0a080e",
     "tab.unfocusedActiveBorder": "#181421",
@@ -337,11 +337,38 @@
         "meta.embedded.block.github-actions-expression",
         "storage.type.function.arrow",
         "meta.objectliteral.ts",
-        "punctuation"
+        "punctuation",
+        "support.module.elm",
+        "entity.other.inherited-class.python",
+        "variable.other.object",
+        "support.other.namespace.php",
+        "entity.other.attribute-name.namespace.xml",
+        "record.accessor",
+        "entity.name.record.field.accessor",
+        "storage.modifier.import.java",
+        "storage.modifier.import.groovy",
+        "meta.import.swift entity.name.type.swift",
+        "meta.member.access.python",
+        "variable.other.property.ts",
+        "variable.other.property.js",
+        "constant.language.symbol.elixir",
+        "punctuation.tag.liquid support.class.liquid",
+        "meta.scriptblock.powershell meta.group.simple.subexpression.powershell meta.group.simple.subexpression.powershell meta.scriptblock.powershell meta.scriptblock.powershell support.variable.automatic.powershell punctuation.definition.variable.powershell",
+        "meta.scriptblock.powershell meta.group.simple.subexpression.powershell meta.group.simple.subexpression.powershell meta.scriptblock.powershell meta.scriptblock.powershell support.variable.automatic.powershell"
       ],
       "settings": {
-        "foreground": "#444444"
+        "foreground": "#706c6c"
       }
+    },
+    { "scope": ["entity.name.type"], "settings": { "foreground": "#3585bb" } },
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.quoted.docstring.multi",
+        "comment.block.documentation source"
+      ],
+      "settings": { "fontStyle": "italic", "foreground": "#c0bee359" }
     },
     {
       "scope": [
@@ -368,6 +395,7 @@
         "foreground": "#c678dd"
       }
     },
+
     {
       "name": "haskell storage type",
       "scope": "storage.type.haskell",
@@ -381,6 +409,50 @@
       "settings": {
         "foreground": "#e06c75"
       }
+    },
+    {
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "string.quoted.double.block.python punctuation.definition.string.end.python",
+        "string.quoted.double.block.python punctuation.definition.string.begin.python",
+        "string.quoted.double.block.python",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"
+      ],
+      "settings": { "foreground": "#00a88460" }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "support.class",
+        "storage.type",
+        "entity.other.inherited-class",
+        "keyword.type",
+        "storage.type.java",
+        "storage.type.primitive.java",
+        "storage.type.generic.java",
+        "keyword.other.type",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php source.php",
+        "punctuation.section.embedded.end.php",
+        "storage.type.object.array.java",
+        "storage.type.primitive.groovy",
+        "storage.type.groovy",
+        "meta.definition.type.body.swift meta.function-call.swift",
+        "meta.definition.type.class.swift meta.inheritance-clause.swift",
+        "variable.other.constant.elixir",
+        "source.graphql declaration.meta.type support",
+        "source.graphql meta.selections",
+        "source.graphql meta.enum.graphql meta.type.object.graphql constant.character.enum.graphql",
+        "source.graphql meta.fragment.graphql entity.name.fragment.graphql",
+        "entity.name.type.class.php",
+        "support.class.php",
+        "entity.other.inherited-class.php",
+        "entity.other.alias.php",
+        "meta.group.simple.subexpression.powershell meta.scriptblock.powershell storage.type.powershell"
+      ],
+      "settings": { "foreground": "#a85ff1" }
     },
     {
       "name": "punctuation.separator.parameters.python",
@@ -2914,35 +2986,15 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "class.declaration": {
-      "foreground": "#B78AFF"
-    },
-    "class.decorator": {
-      "foreground": "#F38CEC"
-    },
-    "enumMember": {
-      "foreground": "#B78AFF"
-    },
-    "meta.decorator": {
-      "foreground": "#F38CEC"
-    },
-    "namespace": {
-      "foreground": "#69C3FF"
-    },
-    "parameter": {
-      "foreground": "#F38CEC"
-    },
-    "property": {
-      "foreground": "#FF955C"
-    },
-    "property.declaration": {
-      "foreground": "#c8c1d9"
-    },
-    "variable": {
-      "foreground": "#E06C75"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#BD976A"
-    }
+    "class.declaration": { "foreground": "#a85ff1" },
+    "class.decorator": { "foreground": "#d46ec0" },
+    "enumMember": { "foreground": "#a85ff1" },
+    "meta.decorator": { "foreground": "#d46ec0" },
+    "namespace": { "foreground": "#11B7D4" },
+    "parameter": { "foreground": "#d46ec0" },
+    "property": { "foreground": "#d4770c" },
+    "property.declaration": { "foreground": "#c6c5dc" },
+    "variable": { "foreground": "#c62f52" },
+    "variable.defaultLibrary": { "foreground": "#38c7bd" }
   }
 }
