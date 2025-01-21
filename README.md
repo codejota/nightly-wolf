@@ -1,57 +1,97 @@
 # Nightly Wolf Theme 🐺
 
-A VSCode theme built for dev BY dev, developed with ☕ 🖤.
+A minimalistic VSCode theme **crafted by devs, for devs**, fueled by ☕ and ❤️.
 
-**Note:** The project and README are still under construction, but it is already possible to download by searching for **Nightly Wolf Theme** in VSCode or by using the link attached to this repository.
+---
 
 ## Description
 
-Nightly Wolf keeps it simple: no flashy distractions or eye-searing colors. We've fine-tuned the syntax and semantic highlighting to match your favorite coding languages, making sure your code stands out without straining your eyes. It's all about keeping you focused and comfortable during those long coding sessions.
+**Nightly Wolf Theme** offers a refined and distraction-free coding experience. Designed with a focus on simplicity, it avoids flashy visuals and harsh colors, providing eye-friendly syntax and semantic highlighting tailored for popular programming languages. Perfect for those late-night coding marathons or all-day sprints, this theme ensures your comfort and focus remain undisturbed.
+
+---
+
+## Preview
+
+### Dark Theme (Default)
+
+![Dark Theme Full](assets/images/photo01.jpeg)
+![Dark Theme Editor](assets/images/print01.png)
+
+### Light Theme
+
+![Light Theme Editor](assets/images/printligh01.png)
+
+### Dark Theme (Soft Mode)
+
+![Soft Dark Theme Editor](assets/images/printsoft01.png)
+
+---
 
 ## Installation 🚀
 
-1. Open the extensions sidebar in Visual Studio Code
-2. Search for **Nightly Wolf Theme** or **jotacode**
-3. Click **Install**
-4. Click **Reload** to reload your editor
-5. Select the Manage Cog (bottom left) > **Color Theme** > **Nightly Wolf Theme**
-6. ⭐⭐⭐⭐⭐ - Rate five-stars 😃 🐺
+1. Open the Extensions sidebar in Visual Studio Code.
+2. Search for **Nightly Wolf Theme** or **jotacode**.
+3. Click **Install**.
+4. Reload your editor for the changes to take effect.
+5. Go to **Manage** (bottom left corner) > **Color Theme** > **Nightly Wolf Theme**.
+6. Don’t forget to leave a ⭐⭐⭐⭐⭐ review to support our work! 🐺😄
+
+---
 
 ## Features
 
-- **Simple and Clean**: Focus on your code without any distractions.
-- **Eye-friendly Colors**: No more eye strain after long coding sessions.
-- **Optimized Highlighting**: Fine-tuned syntax and semantic highlighting for popular languages.
+- **Clean and Minimalistic Design**: Focus entirely on your code without unnecessary distractions.
+- **Ergonomic Colors**: Say goodbye to eye strain with carefully selected hues.
+- **Enhanced Syntax Highlighting**: Precision-tuned for popular programming languages.
+- **Multiple Modes**: Choose between default dark, soft dark, or light mode.
+
+---
 
 ## Recommended Settings
 
-```js
-"editor.fontFamily":  "JetBrains Mono, 'Courier New', monospace",
-"editor.fontSize":  12,
-"editor.fontWeight":  "300",
-"editor.lineHeight":  20,
-"editor.letterSpacing":  0.5,
-"editor.fontLigatures":  true,
+```json
+{
+  "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true
+}
 ```
+
+### Custom VSCode Settings
+
+If you want, you can access my VSCode settings at [this Gist](https://gist.github.com/codejota/44a29319aa43ce2a06bc146aafd300b5). These settings are compatible with the [VSCode Custom CSS Extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css).
+
+---
 
 ## Feedback
 
-We appreciate your feedback! If you have any suggestions or issues, feel free to open an [issue](https://github.com/codejota/nightly-wolf/issues) on GitHub.
+Your feedback is invaluable! If you encounter any issues or have suggestions, please open an [issue](https://github.com/codejota/nightly-wolf/issues) on our GitHub repository.
+
+---
 
 ## Contributing
 
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+We welcome contributions! Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to your branch (`git push origin feature/feature`).
+5. Open a Pull Request for review.
+
+---
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License. For more details, check the `LICENSE` file.
+
+---
 
 ## Inspirations
 
-- HackerTheBox
+- **HackerTheBox**
 
-  **Enjoy!**
+Thank you for using **Nightly Wolf Theme**. Happy coding! 🚀🐺
