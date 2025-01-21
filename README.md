@@ -1,6 +1,6 @@
 # Nightly Wolf Theme 🐺
 
-A minimalistic VSCode theme **crafted by devs, for devs**, fueled by ☕ and ❤️.
+A minimalistic VSCode theme **built for dev BY dev**, developed with ☕ 🖤.
 
 ---
 
